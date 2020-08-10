@@ -1,0 +1,78 @@
+header {
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 30px 0 0 0;
+  color: red;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+span {
+  color: yellow;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.25em;
+  margin: 30px 0;
+}
+
+.gameBoard {
+  grid-gap: 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 500px;
+  width: 800px;
+  align-content: stretch;
+  border: 3px solid black;
+  background-color: RGB(0, 58, 132);
+  padding: 20px;
+}
+
+.gameCircle {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5em;
+  display: inline-block;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: center;
+  grid-row: auto;
+  grid-column: auto;
+  cursor: grabbing;
+}
+
+.drop {
+  position: relative;
+  top: 20px;
+  left: 23%;
+  margin: 0px 28px;
+}
+
+#replay {
+  position: relative;
+  margin: 50px;
+  left: 45%;
+  height: 50px;
+  width: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 30px 0;
+}
+}
