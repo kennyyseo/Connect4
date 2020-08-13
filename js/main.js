@@ -162,13 +162,13 @@ function tieGame() {
 
 function playSnap() {
   var audio = document.createElement("audio");
-  audio.src = "https://freesound.org/data/previews/436/436653_8904693-lq.mp3";
+  audio.src = "https://freesound.org/data/previews/399/399934_1676145-lq.mp3";
   audio.play();
 }
 
 function playCheer() {
   var audio = document.createElement("audio");
-  audio.src = "https://freesound.org/data/previews/333/333404_5884138-lq.mp3";
+  audio.src = "https://freesound.org/data/previews/400/400590_3372256-lq.mp3";
   audio.play();
 }
 
