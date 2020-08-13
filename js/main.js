@@ -160,12 +160,6 @@ function tieGame() {
   document.getElementById("msg").textContent = `Nobody wins!`;
 }
 
-function playSnap() {
-  var audio = document.createElement("audio");
-  audio.src = "https://freesound.org/data/previews/399/399934_1676145-lq.mp3";
-  audio.play();
-}
-
 function playCheer() {
   var audio = document.createElement("audio");
   audio.src = "https://freesound.org/data/previews/400/400590_3372256-lq.mp3";
