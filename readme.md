@@ -1,4 +1,4 @@
-# **Kenny Seo's Project 1 README**
+# **DROP IT LIKE IT'S HAWT**
 
 ## **Connect 4**:
 
