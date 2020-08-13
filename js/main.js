@@ -116,7 +116,6 @@ function render() {
 }
 
 function handleClick(e) {
-  playSnap();
   let idx = parseInt(e.target.id.replace("dr", ""));
   let newCurrentColumn = columns[`c${idx}`];
   for (let i = 0; i < newCurrentColumn.length; i++) {
@@ -127,7 +126,6 @@ function handleClick(e) {
         playCheer();
         winner = turn;
         winningMessage();
-        playCheer();
         document
           .querySelector(".btns")
           .removeEventListener("click", handleClick);
