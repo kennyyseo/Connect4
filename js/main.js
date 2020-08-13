@@ -131,6 +131,7 @@ function handleClick(e) {
           .removeEventListener("click", handleClick);
       } else if (!board.includes(null)) {
         tieGame();
+        playUhOh();
       }
       render();
       turn = !turn;
@@ -169,6 +170,12 @@ function playSnap() {
 function playCheer() {
   var audio = document.createElement("audio");
   audio.src = "https://freesound.org/data/previews/400/400590_3372256-lq.mp3";
+  audio.play();
+}
+
+function playUhOh() {
+  var audio = document.createElement("audio");
+  audio.src = "https://freesound.org/data/previews/504/504654_3923096-lq.mp3";
   audio.play();
 }
 
