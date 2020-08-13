@@ -121,8 +121,10 @@ function handleClick(e) {
   let newCurrentColumn = columns[`c${idx}`];
   for (let i = 0; i < newCurrentColumn.length; i++) {
     if (board[newCurrentColumn[i]] === null) {
+      playSnap();
       board[newCurrentColumn[i]] = turn;
       if (checkWinner()) {
+        playCheer();
         winner = turn;
         winningMessage();
         playCheer();
