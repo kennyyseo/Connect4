@@ -25,11 +25,7 @@ h1 {
   font-size: 1.25em;
   margin: 30px 0;
   color:black;
-<<<<<<< HEAD
   text-shadow: 1px 1px #ffffff;
-=======
-  text-shadow: -1px -1px 0 white;
->>>>>>> master
 }
 
 .gameBoard {
@@ -98,11 +94,3 @@ h2 {
   margin: 30px 0;
   text-shadow: -1px -1px 0 white;
 }
-<<<<<<< HEAD
-
-body { 
-  background-image: url("https://i.imgur.com/ye77Frr.jpg");
-  background-size: cover;
-}
-=======
->>>>>>> master
