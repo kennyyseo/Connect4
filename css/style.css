@@ -48,7 +48,7 @@ h1 {
   width: 60px;
   margin: auto;
   border-radius: 50%;
-  background-color: white;
+  background-image: white;
   border: 3px solid black;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 5em;
@@ -81,7 +81,7 @@ h1 {
 }
 
 #replay {
-  position: relative;
+  position: absolute;
   margin: 50px;
   left: 45%;
   height: 50px;
